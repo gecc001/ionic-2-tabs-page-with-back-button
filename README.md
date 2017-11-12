@@ -1,8 +1,11 @@
 # ionic-2-tabs-page-with-back-button
-A simple wrapper-based solution for displaying a working back button in an ionic 2 tabs page.
+A simple wrapper-based solution for displaying a working back button in an "ionic 2" tabs page.
 This is _one_ solution to ionic bug #5351 https://github.com/driftyco/ionic/issues/5351.
 
-The ionic 2 _tabs_ starter project was generated along with a landing page.
+Note: since this project's creation, it has been upgraded to later versions of Ionic and Angular.
+See the repo tags to view specific version upgrades.
+
+The _tabs_ starter project was generated along with a landing page.
 The root page of the app is set to the landing page. From within the landing page, a button
 is provided to navigate to a wrapped tabs page, which is pushed onto the navigation stack.
 The tabs page is a nested component inside of a boilerplate wrapper component. The wrapper
